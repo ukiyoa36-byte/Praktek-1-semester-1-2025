@@ -32,10 +32,11 @@ public class daya{
         System.out.printf("%-20s: %s\n", "Nama", nama1);
         System.out.printf("%-20s: %s\n", "Kelurahan", kelurahan);
         System.out.printf("%-20s: %s Kwh Meter\n", "Pemakaian bulan ini",posisiAkhir - posisiAwal);
-        System.out.printf("%-20s: %s,-\n","Tarif Listrik", tarifListrik);
-        System.out.printf("%-20s: %s,-\n", "PPJ 10%", (tarifListrik)/PPJ );
-        System.out.printf("%-20s: %s,-\n", "Total Bayar", (tarifListrik) + ((tarifListrik)/PPJ));
+        System.out.printf("%-20s: Rp %s,-\n","Tarif Listrik", tarifListrik);
+        System.out.printf("%-20s: Rp %s,-\n", "PPJ 10%", (tarifListrik)/PPJ );
+        System.out.printf("%-20s: Rp %s,-\n", "Total Bayar", (tarifListrik) + ((tarifListrik)/PPJ));
         System.out.println("================================================");
     }
+
 
 }
